@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+ 
+header{
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: #2e948a;
+    align-items: center;
+}
+.header-nav{
+    align-items: center;
+}
+
+
+
+ header .header-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+header .header-nav li{
+    list-style: none;
+    width: 100px;
+    justify-content: space-around;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+@media screen and (max-width:600px) 
+{
+    header .logo {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+
+        
+    
+    }
+header .header-nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.7rem;
+}
+header .header-nav ul li{
+    padding: 5px;
+
+}
+header{
+    padding: 10px;
+
+}
+
+
+}
+
+    
+
+/* fim do header responsivo */
+
+footer{
+    display: flex;
+    background-color: #2e948a;
+    height: 25vh;
+    margin-top: 10%;
+    width: 100%;
+    justify-content: space-around;
+    
+
+}
+footer a{
+    width: 20%;
+    height: 50%;
+    margin-top: 2%;
+}
+footer .nav-footer{
+    margin-top: 3%;
+
+}
+footer .nav-footer ul{
+    font-size: 1.4rem;
+    color: #fff;
+
+}
+footer ul li a {
+text-decoration: none;
+color: #fff;
+
+}
+footer ul li{
+    list-style: none;
+}
+.btn-footer p {
+margin-top: 10%;
+text-align: center;
+color: #fff;
+border: 1px solid #fff ;
+border-radius: 30px;
+padding: 15px 30px;
+text-decoration: none;
+}
+
+.btn-footer a {
+text-decoration: none;
+}
+@media screen and (max-width:800px) {
+
+footer{
+    display: flex;
+    height: 15vh;
+    margin-top: 10%;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+footer img{
+    width: 100px;
+}
+footer.nav-footer ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+
+}
+.btn-footer p {
+    font-size: 0.5rem;
+    padding: 7.5px 15px;
+
+}
+ footer .nav-footer ul li {
+     font-size: 1rem;
+
+
+
+ }
+
+
+
+
+
+
+}
